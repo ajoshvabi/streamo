@@ -1,0 +1,280 @@
+.backimg{
+    background-image: url(images/bg1.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+.imageoverlay{
+    background-color: rgba(0, 0, 0, 0.579);
+    
+    height: 100vh;
+}
+.signin{
+    background-color: #F4181C;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    padding-top: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.signin:hover{
+    color: #F4181C;
+    background-color: white;
+}
+.herotitle{
+    font-size: 58px;
+    font-weight: 600;
+}
+.herosubtitle{
+    font-size: 24px;
+    font-weight: 400;
+}
+/* .herotitle{
+    font-size: 5vw;
+    font-weight: 650;
+}
+.herosubtitle{
+    font-size: 2vw;
+    font-weight: 400;
+} */
+.heropara{
+    font-size: 17px;
+}
+.heroinput{
+    height: 60px;
+}
+.herobtn{
+    background-color: #F4181C;
+    height: 62px;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.herobtn:hover{
+    background-color: #CF0408;
+}
+/* ----------------------------------------------hero end------------------------------------------------ */
+/*------------------------------------------ tv section start -------------------------------------------*/
+.tv{
+    background-color: #12222D;
+    height: 95vh;
+}
+.tvhead{
+    font-size: 40px;
+    font-weight: 650;
+}
+.tvsubtitle{
+    
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* 
+<!--------------------------------------------- tv section end ------------------------------->
+<!--------------------------------------------- count section start -------------------------------> */
+.countbg{
+    background-color: black;
+    /* height: 45vh; */
+}
+.countfont{
+    color: #F4181C;
+    font-size: 48px;
+    font-weight: 700;
+}
+.counttitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.card1{
+    background-color: #222222;
+    overflow: hidden;
+    
+}
+.listplan li{
+    margin-top: 20px;
+}
+
+.planhead{
+    font-size: 50;
+    font-weight: 700;
+}
+.planbtn{
+    background-color: #F4181C;
+    color: white;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.planbtn:hover{
+    background-color: #333333;
+
+}
+.planbtn1{
+    background-color: #333333;
+    color: white;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+
+.bgplan{
+    height: 200px;
+    width: 450px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -90px;
+    transform: rotate(-10deg);
+    /* rotate: 20deg; */
+}
+.plantxt{
+    transform: rotate(10deg);
+    /* margin-top: 30px; */
+    
+}
+.bgplan1{
+    height: 200px;
+    width: 450px;
+    background-color: #333333;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: -90px;
+    transform: rotate(-10deg);
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    /* rotate: 20deg; */
+}
+.plantxt1{
+    transform: rotate(10deg);
+    /* margin-top: 30px; */
+    
+}
+.card1:hover .bgplan1{
+    background-color: #ff0000;
+   
+}
+.card1:hover .planbtn1{
+    background-color: #ff0000;
+   
+}
+.card1:hover .planbtn1:hover{
+    background-color: #333333;
+   
+}
+.planprice{
+    font-size: 34px;
+    font-weight: 700;
+}
+.movieimg{
+    border-radius: 10px;
+
+}
+.movieimg1{
+    border-radius: 10px;
+    overflow: hidden;
+
+
+}
+.movieimg1:hover img{
+    transition: ease-in-out soo;
+    transition-duration: 0.9s;
+    transform: scale(1.2); 
+}
+
+/* p----------------------question start--------------------------- */
+.question{
+    background-color: #000000;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+}
+.questionbg{
+    background-color: #12222D;
+    /* height: 95vh; */
+}
+.my-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.my-button.clicked {
+    background-color: #ff0000;
+}
+/* p----------------------question end--------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    font-weight: 400;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* ------------------------footer start--------------------- */
+  .footlink{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    transition: all ease-in-out;
+    transition-duration: 0.2s;
+  }
+  .footlink:hover{
+    color:#F4181C;
+ }
+  .footlink1{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    transition: all ease-in-out;
+    transition-duration: 0.2s;
+  }
+  .footlink1:hover{
+    color:#F4181C;
+ }
+ .footimgb{
+    height: 60px;
+    overflow: hidden;
+ }
+.imgfoot{
+    height: 60px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    transition: all ease-in-out;
+    transition-duration: 0.2s;
+}
+.imgfoot:hover{
+    height: 65px;
+}
+.footsignin{
+    background-color: #F4181C;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    padding-top: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.footsignin:hover{
+    color: #F4181C;
+    background-color: white;
+}
+  /* ------------------------footer end--------------------- */
