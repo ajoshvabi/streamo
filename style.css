@@ -411,9 +411,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footreg{
     background-image: url(images/regfoot.webp);
-    height: 60vh;
-    background-size: cover;
-    background-position: center center;
+    /* background-color: #0082ca; */
+    /* background: rgb(50,161,239); */
+/* background: linear-gradient(0deg, rgba(50,161,239,1) 43%, rgba(241,241,241,1) 63%); */
+    /* height: 60vh; */
+    /* background-size: cover; */
+    /* background-position: center ; */
     background-repeat: no-repeat no-repeat;
 }
 .foothed {
