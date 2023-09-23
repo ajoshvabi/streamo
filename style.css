@@ -34,6 +34,18 @@ body::-webkit-scrollbar{
     font-size: 24px;
     font-weight: 400;
 }
+/* Increase font sizes by 1.5x on bigger screens */
+ /*@media (min-width: 48rem) {
+    .herotitle {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2.25em;
+    }
+    p {
+      font-size: 1.5em;
+    } 
+  }*/
 /* .herotitle{
     font-size: 5vw;
     font-weight: 650;
@@ -345,3 +357,282 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(0, 0, 0);
 }
   /* ------------------------footer end--------------------- */
+
+
+
+
+
+
+
+  /* ----------------------------------------------registration------------------------- */
+  /* ----------------------------------------------registration------------------------- */
+  /* ----------------------------------------------registration------------------------- */
+  /* ----------------------------------------------registration------------------------- */
+  .regbg{
+    background-image: url(images/loginimghead.webp);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+  }
+
+  .login{
+    background-color: #ffffff;
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    width: 100px;
+    border: 0;
+    padding-top: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.login:hover{
+     color: #ffffff;
+     background: rgb(2,84,182);
+     background: linear-gradient(0deg, rgba(2,84,182,1) 52%, rgba(13,154,223,1) 94%);
+}
+.regtitle{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.loghed{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0259AE;
+}
+.reghed{
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+.reghed:hover{
+    color: #0259AE;
+}
+.footreg{
+    background-image: url(images/regfoot.webp);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+.foothed {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  .footlist{
+    color: white;
+    text-decoration: none;
+  }
+  .heroreg{
+    height: 100vh;
+  }
+
+
+  /* movie */
+  /* movie */
+  /* movie */
+  .movienav{
+    background-color: #000000;
+  }
+  .subheadmovie{
+    background-color: #1E272D;
+  }
+  .maviehead{
+    font-weight: 500;
+    transition:all ease-in-out;
+    transition-duration: 0.3s;
+
+  }
+  .maviehead:hover{
+    color: #F4181C;
+
+  }
+  .subscribe{
+    background-color: #F4181C;
+    color: white;
+    padding: 10px;
+    width: 140px;
+    padding-top: 8px;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+.subscribe:hover{
+    color: #F4181C;
+    background-color: white;
+}
+.subheadmiviesub{
+    font-weight: 700;
+    font-size: 28px;
+}
+.movievideo{
+    /* height: 100vh; */
+    background-color: #000000;
+}
+video{
+    height: 100%;
+    width: 100%;
+}
+.dirname{
+    color: #F4181C;
+    font-weight: 600;
+    font-size: 18px;
+}
+.paramovie{
+    color: #DDDDDD;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.cards-wrapper1 {
+    overflow-x: hidden;
+    white-space: nowrap;
+    /* grid-column: center-start / -1; */
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    overflow: auto;
+    /* padding-bottom: -rem; */
+    padding-right: var(--page-margin);
+    
+    .card2 {
+      display: grid;
+      place-content: center;
+      border-radius: 15px;
+      /* background-color: #d0f0ee; */
+      /* color: #15928A; */
+      font-size: 1.5rem;
+      height: 25rem;
+      min-width: 16rem;
+    }
+  }
+
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  .cards-wrapper1::-webkit-scrollbar{
+    display: none;
+  }
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f9f9f9;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* .container{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+} */
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom{
+  top: 80%;
+}
+.moviemovie{
+    background-color: #1E272D;
+}
