@@ -1,6 +1,12 @@
 body::-webkit-scrollbar{
     display: none;
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    font-weight: 400;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+  }
 .backimg{
     background-image: url(images/bg1.webp);
     height: 100vh;
@@ -34,26 +40,6 @@ body::-webkit-scrollbar{
     font-size: 24px;
     font-weight: 400;
 }
-/* Increase font sizes by 1.5x on bigger screens */
- /*@media (min-width: 48rem) {
-    .herotitle {
-      font-size: 3em;
-    }
-    h2 {
-      font-size: 2.25em;
-    }
-    p {
-      font-size: 1.5em;
-    } 
-  }*/
-/* .herotitle{
-    font-size: 5vw;
-    font-weight: 650;
-}
-.herosubtitle{
-    font-size: 2vw;
-    font-weight: 400;
-} */
 .heropara{
     font-size: 17px;
 }
@@ -146,8 +132,6 @@ body::-webkit-scrollbar{
     transition: ease-in-out;
     transition-duration: 0.3s;
 }
-
-
 .bgplan{
     height: 200px;
     width: 450px;
@@ -156,11 +140,9 @@ body::-webkit-scrollbar{
     margin-top: -40px;
     margin-left: -90px;
     transform: rotate(-10deg);
-    /* rotate: 20deg; */
 }
 .plantxt{
     transform: rotate(10deg);
-    /* margin-top: 30px; */
     
 }
 .bgplan1{
@@ -173,11 +155,9 @@ body::-webkit-scrollbar{
     transform: rotate(-10deg);
     transition: ease-in-out;
     transition-duration: 0.2s;
-    /* rotate: 20deg; */
 }
 .plantxt1{
     transform: rotate(10deg);
-    /* margin-top: 30px; */
     
 }
 .card1:hover .bgplan1{
@@ -212,7 +192,7 @@ body::-webkit-scrollbar{
     transform: scale(1.2); 
 }
 
-/* p----------------------question start--------------------------- */
+/* ----------------------question start--------------------------- */
 .question{
     background-color: #000000;
     width: 100%;
@@ -221,7 +201,6 @@ body::-webkit-scrollbar{
 }
 .questionbg{
     background-color: #12222D;
-    /* height: 95vh; */
 }
 .my-button {
     padding: 10px 20px;
@@ -236,17 +215,10 @@ body::-webkit-scrollbar{
     background-color: #ff0000;
 }
 /* p----------------------question end--------------------------- */
-h1, h2, h3, h4, h5, h6 {
-    color: #333333;
-    font-weight: 400;
-    margin-top: 0;
-    font-family: "Poppins", sans-serif;
-  }
-
   /* ------------------------footer start--------------------- */
   .footlink{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     color: white;
     transition: all ease-in-out;
     transition-duration: 0.2s;
@@ -298,7 +270,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 100%;
     margin-left: 5px;
     color: white;
-    /* height: 200px; */
     padding: 9px;
     padding-left: 15px;
     padding-right: 15px;
@@ -357,17 +328,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(0, 0, 0);
 }
   /* ------------------------footer end--------------------- */
-
-
-
-
-
-
-
-  /* ----------------------------------------------registration------------------------- */
-  /* ----------------------------------------------registration------------------------- */
-  /* ----------------------------------------------registration------------------------- */
-  /* ----------------------------------------------registration------------------------- */
+  /* -------------------------------------------------------registration--------------------------------------- */
   .regbg{
     background-image: url(images/loginimghead.webp);
     height: 60vh;
@@ -411,14 +372,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footreg{
     background-image: url(images/regfoot.webp);
-    /* background-color: #0082ca; */
-    /* background: rgb(50,161,239); */
-/* background: linear-gradient(0deg, rgba(50,161,239,1) 43%, rgba(241,241,241,1) 63%); */
-    /* height: 60vh; */
-    /* background-size: cover; */
-    /* background-position: center ; */
     background-repeat: no-repeat no-repeat;
+    height: 100%;
 }
+
 .foothed {
     font-weight: 600;
     color: #ffffff;
@@ -432,9 +389,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-  /* movie */
-  /* movie */
-  /* movie */
+  /*---------------------------------------------------- movie------------------------------------------------------- */
   .movienav{
     background-color: #000000;
   }
@@ -469,7 +424,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
 }
 .movievideo{
-    /* height: 100vh; */
     background-color: #000000;
 }
 video{
@@ -488,28 +442,21 @@ video{
     line-height: 28px;
 }
 
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
+/*------------------------------------ horizontal scroll--------------------------------------------------- */
+
 .cards-wrapper1 {
     overflow-x: hidden;
     white-space: nowrap;
-    /* grid-column: center-start / -1; */
     display: grid;
     grid-auto-flow: column;
     gap: 1rem;
     overflow: auto;
-    /* padding-bottom: -rem; */
     padding-right: var(--page-margin);
     
     .card2 {
       display: grid;
       place-content: center;
       border-radius: 15px;
-      /* background-color: #d0f0ee; */
-      /* color: #15928A; */
       font-size: 1.5rem;
       height: 25rem;
       min-width: 16rem;
@@ -534,11 +481,11 @@ video{
   box-sizing: border-box;
 }
 
-body{
+/* body{
   background: #f9f9f9;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-}
+} */
 
 
 
@@ -547,7 +494,7 @@ body{
   float: left;
   width: 50%;
 } */
-@media screen and (max-width: 640px){
+/* @media screen and (max-width: 640px){
   .container{
     display: block;
     width: 100%;
@@ -631,11 +578,117 @@ body{
 .content-details p{
   color: #fff;
   font-size: 0.8em;
-}
+} */
 
-.fadeIn-bottom{
+/* .fadeIn-bottom{
   top: 80%;
-}
+} */
 .moviemovie{
     background-color: #1E272D;
 }
+
+/*---------------------------------------- register footer---------------------- */
+.explore{ 
+  color: #ffffff; 
+} 
+ 
+.explore:hover{ 
+  color:#ffffff ; 
+   
+} 
+.fb { 
+  padding: 5px; 
+  width: 30px; 
+  text-align: center; 
+  text-decoration: none; 
+} 
+ 
+.fb:hover { 
+  opacity: 0.7; 
+} 
+ 
+.fb{ 
+  background: #0a41b8; 
+  color: white; 
+} 
+ 
+.lkn { 
+  padding: 5px; 
+  width: 30px; 
+  text-align: center; 
+  text-decoration: none; 
+} 
+ 
+.lkn:hover { 
+  opacity: 0.7; 
+} 
+ 
+.lkn{ 
+  background: #3862be; 
+  color: white; 
+} 
+ 
+.yt { 
+  padding: 5px; 
+  width: 30px; 
+  text-align: center; 
+  text-decoration: none; 
+} 
+ 
+.yt:hover { 
+  opacity: 0.7; 
+} 
+ 
+.yt{ 
+  background: #fd2201; 
+  color: white; 
+} 
+ 
+.insta { 
+  padding: 5px; 
+  width: 30px; 
+  text-align: center; 
+  text-decoration: none; 
+} 
+ 
+.insta:hover { 
+  opacity: 0.7; 
+} 
+ 
+.insta{ 
+  background: #c63916; 
+  color: white; 
+} 
+ 
+.fdate{ 
+  color: #f7551a; 
+} 
+ 
+
+.footbanner{ 
+  background-size: cover; 
+  background-position: center; 
+  background-image: url('images/regfoot.webp'); 
+  /* height: 450px;  */ 
+  height: 100%; 
+} 
+
+.help{ 
+color: #ffffff; 
+font-weight: 450; 
+} 
+
+.help:hover{ 
+color: #0259ae; 
+} 
+
+.breadhome{ 
+color: #ffffff; 
+text-decoration: none; 
+} 
+
+.breadhome:hover{ 
+color: #0259ae; 
+} 
+
+/*---------------------------------------- register footer---------------------- */
